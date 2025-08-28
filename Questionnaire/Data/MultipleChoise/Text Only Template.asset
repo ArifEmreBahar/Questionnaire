@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95878cad5d68e564e93bba91154604e1, type: 3}
+  m_Name: Text Only Template
+  m_EditorClassIdentifier: 
+  skipAfterTime: 0
+  skipTime: 10
+  Image: {fileID: 0}
+  AnswerRule: 4
+  Description: 'This is Text Only Multiple Choice type of questionnaire template.
+
+    Any
+    answer is Valid.'
+  ConditionA: 1
+  ConditionB: 0
+  Answers:
+  - Type: 1
+    Image: {fileID: 21300000, guid: 7c58a894b5ea8f94a9fdefcdd7c7c136, type: 3}
+    Description: '[Asnwer] [Asnwer] [Asnwer] [Asnwer] [Asnwer] [Asnwer] [Asnwer]
+      [Asnwer] [Asnwer] [Asnwer] '
+  - Type: 0
+    Image: {fileID: 21300000, guid: 7c58a894b5ea8f94a9fdefcdd7c7c136, type: 3}
+    Description: 123
+  - Type: 1
+    Image: {fileID: 21300000, guid: 0daf7e999bd33f546aba7841f01c9c7e, type: 3}
+    Description: '[Asnwer1] [Asnwer1] [Asnwer1] [Asnwer1] [Asnwer1] [Asnwer1] [Asnwer1]
+      [Asnwer1] [Asnwer1] [Asnwer1] [Asnwer1] [Asnwer1]'
+  - Type: 0
+    Image: {fileID: 21300000, guid: 0daf7e999bd33f546aba7841f01c9c7e, type: 3}
+    Description: aeb

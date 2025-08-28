@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19511336b26c5c94991dc2e60b25e128, type: 3}
+  m_Name: Binary Select Template
+  m_EditorClassIdentifier: 
+  SkipAfterTime: 0
+  SkipTime: 10
+  Image: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
+  AnswerRule: 1
+  Description: 'This is Text & Image Binary Select (True/False kinda) type of questionnaire
+    template.
+
+    Answers sholuld be matched.'
+  ConditionA: 1
+  ConditionB: 1
+  Answers:
+  - Type: 1
+    Image: {fileID: 21300000, guid: d7591b4d6f56a5149b10753e2a8f4265, type: 3}
+    Description: 
+  - Type: 1
+    Image: {fileID: 21300000, guid: 5f92b8fddd603cf41bc41649193485ca, type: 3}
+    Description: 
+  RepeatIfWrong: 0

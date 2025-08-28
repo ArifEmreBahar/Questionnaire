@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5220bcf622dec24ea64dbf46a1a461b, type: 3}
+  m_Name: SortOrder Template
+  m_EditorClassIdentifier: 
+  skipAfterTime: 0
+  skipTime: 10
+  Image: {fileID: 21300000, guid: 395800a7c7a30f448b61fb690556100f, type: 3}
+  AnswerRule: 0
+  Description: 'This is Text & Image Sort Order type of questionnaire template.
+
+    Answers
+    sholuld be Unique.'
+  ConditionA: 0
+  ConditionB: 0
+  Answers:
+  - Type: 1
+    Image: {fileID: 21300000, guid: af8c621da27cdfb4b94b2fd1249249a1, type: 3}
+    Description: 
+  - Type: 1
+    Image: {fileID: 21300000, guid: 67d896f025056af4a9b5042f3012906a, type: 3}
+    Description: 
+  - Type: 1
+    Image: {fileID: 21300000, guid: 415eed3ecb2d86d4fa422a0dd1e0ed4a, type: 3}
+    Description: 
+  - Type: 1
+    Image: {fileID: 21300000, guid: 820e47813d6d55348895e85435525ed2, type: 3}
+    Description: 
